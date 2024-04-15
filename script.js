@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error fetching data:', error));
     }
 
-    // Event listeners for buttons
     citBtn.addEventListener('click', function () {
         displayStudents('CIT');
     });
