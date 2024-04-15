@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const busBtn = document.getElementById('busBtn');
     const template = Handlebars.compile(document.getElementById('student-template').innerHTML);
     
-    // Function to fetch and display student data
     function displayStudents(major) {
         fetch('cit5students.json')
             .then(response => response.json())
